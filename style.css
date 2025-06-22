@@ -98,18 +98,23 @@ header nav ul li a:hover {
 }
 
 .product button {
-    background-color: linear-gradient(to right, #11998e, #38ef7d);
+    background: linear-gradient(to right, #11998e, #38ef7d);
     color: #ffffff;
     border: none;
     padding: 8px 16px;
     border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background 0.3s ease;
     outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(56, 239, 125, 0.1);
 }
 
 .product button:hover {
     background: linear-gradient(to right, #0c8976, #30c270);
+    color: #eafff3;
+    transform: scale(1.05);
 }
 
 #cart {
