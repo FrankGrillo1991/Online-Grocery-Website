@@ -35,7 +35,7 @@ header h1 {
 }
 
 header nav ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
@@ -45,4 +45,15 @@ header nav ul {
 
 header nav ul li {
     display: inline;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #f3f4f6;
 }
