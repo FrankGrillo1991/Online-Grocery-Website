@@ -17,3 +17,14 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.header {
+    background: linear-gradient(to right, #11998e, #38ef7d);
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
