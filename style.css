@@ -96,3 +96,14 @@ header nav ul li a:hover {
     color: #666666;
     margin-bottom: 0.5rem;
 }
+
+.product button {
+    background-color: linear-gradient(to right, #11998e, #38ef7d);
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+}
