@@ -36,7 +36,7 @@ function updateCartDisplay() {
     const cart = document.getElementById('cart-items');
     cart.innerHTML = '';
     Items.forEach((item, index) => {
-        const itemDiv = document.createElement('div');
+        const li = document.createElement('li');
         itemDiv.className = 'cart-item';
         itemDiv.innerHTML = `
             <span>${item.name} - $${item.price.toFixed(2)} x 
@@ -48,6 +48,6 @@ function updateCartDisplay() {
             </span>
             <button onclick="deleteFromCart(${index})">Delete</button>
         `;
-        cart.appendChild(itemDiv);
+        cartElement.appendChild(li);
     });
 }
