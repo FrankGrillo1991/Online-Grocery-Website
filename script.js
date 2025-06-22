@@ -33,7 +33,7 @@ function checkout() {
 }
 
 function updateCartDisplay() {
-    const cart = document.getElementById('cart-items');
+    const cartElement = document.getElementById('cart-items');
     cartElement.innerHTML = '';
     Items.forEach((item, index) => {
         const li = document.createElement('li');
