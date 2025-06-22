@@ -34,17 +34,17 @@ function checkout() {
 
 function updateCartDisplay() {
     const cart = document.getElementById('cart-items');
-    cart.innerHTML = '';
+    cartElement.innerHTML = '';
     Items.forEach((item, index) => {
         const li = document.createElement('li');
-        itemDiv.className = 'cart-item';
-        itemDiv.innerHTML = `
+        li.className = 'cart-item';
+        li.innerHTML = `
             <span>${item.name} - $${item.price.toFixed(2)} x 
                 <div class="quantity">
                     <button onclick="updateQuantity(${index}, ${item.quantity - 1}">-</button>
                     <input type="number" value="${item.quantity}" min="1" onchange="updateQuantity(${index}, this.value)">
                     <button onclick="updateQuantity(${index}, ${item.quantity + 1})">+</button>
-
+                </div>
             </span>
             <button onclick="deleteFromCart(${index})">Delete</button>
         `;
