@@ -107,3 +107,7 @@ header nav ul li a:hover {
     transition: background-color 0.3s ease;
     outline: none;
 }
+
+.product button:hover {
+    background: linear-gradient(to right, #0c8976, #30c270);
+}
