@@ -138,3 +138,47 @@ header nav ul li a:hover {
     align-items: center;
     margin-bottom: 0.5rem;
 }
+
+.cart-item button {
+    background: linear-gradient(to right, #ff4d4f, #ff6832);
+    color: #ffffff;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+}
+
+.cart-item button:hover {
+    background: linear-gradient(to right, #e63c3f, #f34d6f);
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+.quantity button {
+    background: linear-gradient(to right, #11998e, #38ef7d);
+    color: #ffffff;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+}
+.quantity button:hover {
+    background: linear-gradient(to right, #0c8976, #30c270);
+}
+
+.quantity input {
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 0.5rem;
+    padding: 4px;
+    outline: none;
+}
