@@ -126,13 +126,13 @@ header nav ul li a:hover {
     color: #333;
 }
 
-#cart items {
+#cart-items {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-#cart item {
+.cart-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
