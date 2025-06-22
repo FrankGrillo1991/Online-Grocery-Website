@@ -42,3 +42,7 @@ header nav ul {
     justify-content: center;
     gap: 20px;
 }
+
+header nav ul li {
+    display: inline;
+}
