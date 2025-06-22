@@ -18,7 +18,7 @@ body {
     justify-content: space-between;
 }
 
-.header {
+header {
     background: linear-gradient(to right, #11998e, #38ef7d);
     color: #ffffff;
     padding: 20px 0;
