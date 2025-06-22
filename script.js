@@ -48,6 +48,6 @@ function updateCartDisplay() {
             </span>
             <button onclick="deleteFromCart(${index})">Delete</button>
         `;
-        cart.appendChild(itemDiv);
+        cartElement.appendChild(li);
     });
 }
