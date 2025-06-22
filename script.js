@@ -41,8 +41,8 @@ function updateCartDisplay() {
         li.innerHTML = `
             <span>${item.name} - $${item.price.toFixed(2)} x 
                 <div class="quantity">
-                    <button onclick="updateQuantity(${index}, ${item.quantity - 1}">-</button>
-                    <input type="number" value="${item.quantity}" min="1" onchange="updateQuantity(${index}, this.value)">
+                    <button onclick="updateQuantity(${index}, Math.max(1, ${item.quantity - 1}))">-</button>
+                    <input type="number" value="${item.quantity}" min="1" onchange="updateQuantity(${index}, Math.max(1, this.value))">
                     <button onclick="updateQuantity(${index}, ${item.quantity + 1})">+</button>
                 </div>
             </span>
