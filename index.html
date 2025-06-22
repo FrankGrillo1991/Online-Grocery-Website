@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Grocery Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
@@ -20,5 +21,42 @@
     </div>
     </header>
 
+<div class="container">
+    <section id="products">
+        <h2>Available Products</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 gap-6">
+            <div class="product">              
+            <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20240308174326/d12.jpg"
+                     alt="Salt">
+                <h3>Salt</h3>
+                <p>$2.00</p>
+                <button onclick="addToCart('Salt', 2.00)">Add to Cart</button>
+            </div>
+            <div class="product">
+                 <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20240308174500/f12.jpg"
+                     alt="Apple">
+                <h3>Apple</h3>
+                <p>$5.00</p>
+                <button onclick="('Apple', 5.00)">Add to Cart</button>
+            </div>
+            <div class="product">
+                  <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20240308174616/o12.jpg" alt="Orange">
+                <h3>Orange</h3>
+                <p>$4.00</p>
+                <button onclick="('Orange', 4.00)">Add to Cart</button>
+            </div>
+            <div class="product">
+                 <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20240308181947/o123.jpg"
+                     alt="Oil">
+                <h3>Oil</h3>
+                <p>$8.00</p>
+                <button onclick="('Oil', 8.00)">Add to Cart</button>
+            </div>
+    </section>
+</div>
 </body>
 </html>
